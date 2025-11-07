@@ -1,4 +1,3 @@
-# Villacarlos-Portfolio-
 # Portfolio 2025 — How to Run
 
 This is a static portfolio site built with HTML, CSS, and JavaScript. You can open it directly or serve it with a simple local server for best results (recommended for videos, fonts, and 3D model viewer).
@@ -47,6 +46,18 @@ http://localhost:5500
 - `script.js` — interactions
 - Assets: images/videos like `picture.png`, `videowork.mp4`, `EventNotify.png`
 - External: `@google/model-viewer` is loaded via CDN in `index.html`
+
+## Deployment
+
+### GitHub Pages (no backend)
+1. Create a GitHub repo and push this folder
+2. In GitHub → Settings → Pages → Source: select `main` branch, `/ (root)`
+3. Wait for deploy; your site will be available at the Pages URL
+
+### Netlify / Vercel / Cloudflare Pages
+- Drag‑and‑drop the folder in the dashboard, or connect your Git repo
+- Build command: none
+- Publish directory: project root (where `index.html` lives)
 
 ## Notes
 - Keep all files in the same folder so paths in `index.html` keep working
