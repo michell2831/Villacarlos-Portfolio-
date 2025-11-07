@@ -56,11 +56,11 @@ http://localhost:5500
 - External: `@google/model-viewer` is loaded via CDN in `index.html`
 
 # Credits
-
 - Fonts: Inter via Google Fonts (`https://fonts.google.com/`)
 - Icons: Font Awesome 6 CDN (`https://fontawesome.com/`)
 - 3D Viewer: `@google/model-viewer` CDN (`https://modelviewer.dev/`)
 - Media (images/video): © Paula Michelle Villacarlos (unless otherwise credited)
 - Favicon/Logo: `Mylogo2.png` by Paula Michelle Villacarlos
 - Music: none
+
 
