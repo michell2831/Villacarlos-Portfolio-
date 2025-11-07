@@ -1,14 +1,22 @@
-# Portfolio 2025 — How to Run
+# Project title
 
-This is a static portfolio site built with HTML, CSS, and JavaScript. You can open it directly or serve it with a simple local server for best results (recommended for videos, fonts, and 3D model viewer).
+Paula Villacarlos — Portfolio
 
-## Run Locally (Windows)
+# Short description
+
+A modern, responsive personal portfolio showcasing projects, videos, 3D work, and contact information. Built with HTML, CSS, and JavaScript, featuring Google Fonts, Font Awesome icons, and a 3D model viewer.
+
+# How to run locally
+
+This is a static portfolio. You can open it directly or serve it locally (recommended for videos, fonts, and 3D model viewer).
+
+## Windows
 
 ### Option A) Double‑click (quickest)
 - Open the folder in File Explorer and double‑click `index.html`.
-- If anything doesn’t load (e.g., video or 3D model), use Option B or C.
+- If anything doesn’t load (e.g., video or 3D model), use Option B, C, or D.
 
-### Option B) Built‑in Python server (no install needed if Python is on your PC)
+### Option B) Built‑in Python server
 In PowerShell from the project folder:
 ```powershell
 # If you have Python 3 installed on Windows
@@ -40,25 +48,19 @@ http://localhost:5500
 - Install the "Live Server" extension
 - Right‑click `index.html` → "Open with Live Server"
 
-## Project Files
+## Project files
 - `index.html` — main page
 - `style.css` — styles
 - `script.js` — interactions
-- Assets: images/videos like `picture.png`, `videowork.mp4`, `EventNotify.png`
+- Assets: images/videos like `picture.png`, `videowork.mp4`, `EventNotify.png`, `Mylogo2.png`, `dogwalkersgold.glb`
 - External: `@google/model-viewer` is loaded via CDN in `index.html`
 
-## Deployment
+# Credits
 
-### GitHub Pages (no backend)
-1. Create a GitHub repo and push this folder
-2. In GitHub → Settings → Pages → Source: select `main` branch, `/ (root)`
-3. Wait for deploy; your site will be available at the Pages URL
+- Fonts: Inter via Google Fonts (`https://fonts.google.com/`)
+- Icons: Font Awesome 6 CDN (`https://fontawesome.com/`)
+- 3D Viewer: `@google/model-viewer` CDN (`https://modelviewer.dev/`)
+- Media (images/video): © Paula Michelle Villacarlos (unless otherwise credited)
+- Favicon/Logo: `Mylogo2.png` by Paula Michelle Villacarlos
+- Music: none
 
-### Netlify / Vercel / Cloudflare Pages
-- Drag‑and‑drop the folder in the dashboard, or connect your Git repo
-- Build command: none
-- Publish directory: project root (where `index.html` lives)
-
-## Notes
-- Keep all files in the same folder so paths in `index.html` keep working
-- If media or the 3D model doesn’t load over `file://`, use a local server (Options B–D)
